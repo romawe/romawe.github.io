@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow:hidden;
+    /* width: 100vw;
+    height: 100vh; */
+    /* background-color: #3D85C6;
+     */
+}
+header{
+    display: flex;
+    align-content:center;
+}
+.title{
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+    color: #DEDEDE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+.img_title{
+
+}
+.wrapper{
+    position: relative;
+    /* background-image: url();
+    background-position: center; */
+    height: 80vh;
+}
+.status_bar{
+    position: fixed;
+    z-index: -2;
+    top: -15px;
+    left: -12px;
+    /* background-image: url("/assets/interface_assets_statusbar.png"); */
+    /* height: 50px; */
+    background-repeat: no-repeat;
+    color:transparent;
+}
+.under-wrap-img{
+    display: flex;
+    position: fixed;
+    top: 50px;
+    z-index: -2;
+    height: 80%;
+    width: 100%;
+    justify-self: center;
+
+}
+.level_field{
+    height: 55px;
+    position: absolute;
+    top: 38px;
+    left: 10px;
+}
+.money_field{
+    height: 55px;
+    position: absolute;
+    top: 38px;
+    right: 0px;
+}
+.level_3{
+    height: 20px;
+    position: absolute;
+}
+.money_90000{
+    position: absolute;
+}
+.money_icon{
+    position: absolute;
+}
+.level_field{
+    position: absolute;
+}
+.button_add300k{
+    position: absolute;
+}
